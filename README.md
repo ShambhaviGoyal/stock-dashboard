@@ -30,7 +30,7 @@ This project is a **Stock Price Dashboard** that fetches real-time stock data fr
 - Implemented **chart visualization locally** (optional bonus) to display stock price trends over time.  
 
 ## 4. Deployment
-The dashboard is deployed on Vercel and can be accessed [here](https://stock-dashboard-f44dbw0kk-shambhavis-goyals-projects.vercel.app).
+The dashboard is deployed on Vercel and can be accessed [here](https://stock-dashboard-rouge.vercel.app/).
 
 ## 5. Setup Instructions (Local)
 1. Clone the repository:
