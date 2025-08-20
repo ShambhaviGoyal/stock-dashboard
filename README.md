@@ -57,18 +57,19 @@ Built with **React (TypeScript)**, **Tailwind CSS**, **Vite**, and **Chart.js**.
 1. Clone the repository:
    ```bash
    git clone <https://github.com/ShambhaviGoyal/stock-dashboard>
-## Step 2: Setup and Run Project
+   cd stock-dashboard
 
-1. **Install dependencies**
+2. Install dependencies
    ```bash
    npm install
-2. **Add your Finnhub API key**  
+   
+3. Add your Finnhub API key
    Create a `.env` file in the root directory and add:
 
    ```env
    VITE_FINNHUB_API_KEY=your_api_key_here
-3. **Start the development server**
-  ``bash
-   npm run dev
-4. **Open the app in your browser**  
-Go to [http://localhost:5173](http://localhost:5173) to view the stock dashboard.
+4. Start the development server
+     ```bash
+     npm run dev
+5. Open the app in your browser
+6. Go to [http://localhost:5173](http://localhost:5173) to view the stock dashboard.
