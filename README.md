@@ -1,4 +1,4 @@
-# 📈 Stock Market Dashboard – *ValueGlance Edition*
+# 📈 Stock Market Dashboard
 
 A modern, responsive **stock market dashboard** that fetches real-time data from the **Finnhub API** and displays it in an elegant interface with both **table and chart views**.  
 Built with **React (TypeScript)**, **Tailwind CSS**, **Vite**, and **Chart.js**.
