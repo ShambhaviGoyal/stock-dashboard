@@ -1,36 +1,57 @@
-# Stock Dashboard
+# 📈 Stock Market Dashboard – *ValueGlance Edition*
 
-## 1. Technologies Used
-- **React** (Javascript/Typescript)
-- **Tailwind CSS** for responsive styling
-- **Vite** as the build tool
-- **Finnhub API** for stock data
-- **Chart.js** (optional bonus feature for graph visualization)
+A modern, responsive **stock market dashboard** that fetches real-time data from the **Finnhub API** and displays it in an elegant interface with both **table and chart views**.  
+Built with **React (TypeScript)**, **Tailwind CSS**, **Vite**, and **Chart.js**.
 
-## 2. Project Overview
-This project is a **Stock Price Dashboard** that fetches real-time stock data from the Finnhub API and displays it in a responsive table. Users can see the current price and percentage change for selected stocks.
+---
 
-**Core Features Implemented:**
-- Fetch stock data for selected symbols (AAPL, MSFT, GOOGL) using Finnhub API.
-- Display stock data in a table (symbol, price, change %).
-- Responsive styling with Tailwind CSS.
-- Loading spinner displayed while fetching data.
-- Search functionality to filter stocks by symbol.
-- Sorting functionality for stock prices (ascending/descending).
+## 🚀 Live Demo  
+👉 [View Deployed App on Vercel](https://stock-dashboard-rouge.vercel.app/)
 
-**Optional Features Added:**
-- Percentage change color-coded: green for positive, red for negative.
-- Responsive layout ensures usability on mobile and desktop.
-- Deployment on Vercel for live access.
+---
 
-## 3. Short Description of Additional Features Beyond Core Requirements
-- Added **search and sorting** functionality for better usability.
-- **Color-coded percentage changes** for quick visual reference.
-- Included a **loading spinner** for a polished user experience while fetching data.
-- Implemented **chart visualization locally** (optional bonus) to display stock price trends over time.  
+## ⚙️ Tech Stack
+- **React + TypeScript** – UI and state management  
+- **Vite** – Fast build tool  
+- **Tailwind CSS** – Responsive design system  
+- **Chart.js** – Interactive visualizations  
+- **Finnhub API** – Real-time stock data  
 
-## 4. Deployment
-The dashboard is deployed on Vercel and can be accessed [here](https://stock-dashboard-rouge.vercel.app/).
+---
+
+## 📊 Core Features
+- ✅ Fetch live stock data for multiple tickers (AAPL, MSFT, GOOGL, etc.)  
+- ✅ Display data in a clean, responsive **table layout**  
+- ✅ Show **current price** and **percentage change**  
+- ✅ **Loading spinner** during fetch requests  
+- ✅ **Search and filter** by stock symbol  
+- ✅ **Sorting functionality** for price (ascending/descending)  
+
+---
+
+## ✨ Bonus Features (Above & Beyond)
+
+### 🔄 User Experience
+- **Toggle View** – Switch between *Table* and *Charts* view  
+- **Color-Coded Changes** – Green for gainers, red for losers  
+- **Responsive UI** – Works flawlessly on mobile & desktop  
+- **Hover effects & animations** for better interactivity  
+- **Error handling** – Friendly retry messages  
+- **No results state** – Clear feedback for empty searches  
+
+### 📊 Chart Visualizations
+- **Price Comparison Bar Chart** – Compare all stock prices (green = gainers, red = losers)  
+- **Market Performance Doughnut Chart** – Split of gainers vs losers, instant market sentiment  
+- **Top Performers List** – Ranked top 10 stocks by % change with prices  
+
+### 🎨 Design & Branding
+- **Professional Header** – Branding with *ValueGlance* logo & market status  
+- **Dashboard Summary Cards** – Portfolio value, average change, active stocks  
+- **Modern UI System** – Gradients, spacing, shadows, and consistent typography  
+- **Status Badges** – Color-coded arrows (▲ ▼) for price changes  
+- **Company Avatars** – Letter-based stock symbols  
+
+---
 
 ## 5. Setup Instructions (Local)
 1. Clone the repository:
